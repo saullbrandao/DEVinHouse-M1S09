@@ -5,18 +5,18 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ItemCardComponent } from './item-card/item-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     ModalComponent,
-    NavbarComponent
+    NavbarComponent,
+    ItemCardComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
