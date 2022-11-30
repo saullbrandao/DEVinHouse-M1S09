@@ -1,0 +1,26 @@
+<form class="col-md-6 g-3">
+  <div class="mb-3">
+    <label for="staticEmail" class="form-label">Email</label>
+    <input
+      type="text"
+      class="form-control"
+      id="email"
+      #email
+      placeholder="email@example.com"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="inputPassword" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password" #password />
+  </div>
+
+  <div class="col-auto">
+    <button
+      type="button"
+      (click)="submitForm(email.value, password.value)"
+      class="btn btn-primary mb-3"
+    >
+      Enviar
+    </button>
+  </div>
+</form>
