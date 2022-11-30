@@ -1,0 +1,54 @@
+<div class="col-md-6">
+  <form class="row g-3 p-3 bg-dark bg-gradient text-light">
+    <h1>Cadastro</h1>
+    <div class="col-md-6">
+      <label for="inputName" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="inputName" />
+    </div>
+    <div class="col-md-6">
+      <label for="inputClassLoad" class="form-label">Carga Horária</label>
+      <input type="number" class="form-control" id="inputClassLoad" />
+    </div>
+    <div class="col-md-12">
+      <label for="inputSchool" class="form-label">Escola</label>
+      <input type="text" class="form-control" id="inputSchool" />
+    </div>
+
+    <div class="col-md-12">
+      <label for="inputTeacher" class="form-label">Professor(a)</label>
+      <select id="inputTeacher" class="form-select">
+        <option selected disabled>Escolha...</option>
+        <option value="otavio">Otávio</option>
+        <option value="vivian">Vivian</option>
+        <option value="leandro">Leandro</option>
+        <option value="claudia">Cláudia</option>
+      </select>
+    </div>
+
+    <div class="col-md-12">
+      <span>Opcional?</span>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="optional"
+          id="optional-yes"
+        />
+        <label class="form-check-label" for="optional-yes"> Sim </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="optional"
+          id="optional-no"
+          checked
+        />
+        <label class="form-check-label" for="optional-no"> Não </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+</div>
