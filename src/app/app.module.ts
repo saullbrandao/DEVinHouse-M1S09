@@ -7,6 +7,7 @@ import { ModalComponent } from './modal/modal.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ItemCardComponent } from './item-card/item-card.component';
 import { DependencyInjectionFormComponent } from './dependency-injection-form/dependency-injection-form.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { DependencyInjectionFormComponent } from './dependency-injection-form/de
     NavbarComponent,
     ItemCardComponent,
     DependencyInjectionFormComponent,
+    SearchComponent,
   ],
   imports: [BrowserModule],
   providers: [],

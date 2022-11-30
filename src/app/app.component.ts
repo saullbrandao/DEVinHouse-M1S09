@@ -16,4 +16,8 @@ export class AppComponent {
     description:
       'Ator, dublador, roteirista, diretor e produtor norte-americano, mais conhecido por interpretar Walter White na série Breaking Bad.',
   };
+
+  receiveChildOutput(value: any) {
+    console.log(value);
+  }
 }
